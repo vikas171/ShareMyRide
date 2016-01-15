@@ -12,8 +12,7 @@ public class Stack {
 
 			String testData[] = data.split(" ");
 			for (int i = 0; i < testData.length; i++) {
-				switch (testData[i]) {
-				case "+":
+				if (testData[i].equals("+")) {
 					if (vec.size() >= 2) {
 						int top = vec.size() - 1;
 						float rs = vec.get(top) + vec.get(top - 1);
@@ -24,8 +23,8 @@ public class Stack {
 					} else {
 						return 200; // Error
 					}
-					break;
-				case "-":
+				}
+				if (testData[i].equals("-")) {
 					if (vec.size() >= 2) {
 						int top = vec.size() - 1;
 						float rs = vec.get(top - 1) - vec.get(top);
@@ -36,8 +35,8 @@ public class Stack {
 					} else {
 						return 200; // Error
 					}
-					break;
-				case "*":
+				}
+				if (testData[i].equals("*")) {
 					if (vec.size() >= 2) {
 						int top = vec.size() - 1;
 						float rs = vec.get(top - 1) * vec.get(top);
@@ -48,8 +47,8 @@ public class Stack {
 					} else {
 						return 200; // Error
 					}
-					break;
-				case "/":
+				}
+				if (testData[i].equals("/")) {
 					if (vec.size() >= 2) {
 						int top = vec.size() - 1;
 						if (vec.get(top) == 0) {
@@ -63,8 +62,8 @@ public class Stack {
 					} else {
 						return 200; // Error
 					}
-					break;
-				case "%":
+				}
+				if (testData[i].equals("%")) {
 					if (vec.size() >= 2) {
 						int top = vec.size() - 1;
 						float rs = vec.get(top - 1) * vec.get(top) / 100;
@@ -75,9 +74,10 @@ public class Stack {
 					} else {
 						return 200; // Error
 					}
-					break;
+				}
 
-				default:
+				else
+				{
 					vec.add(Float.parseFloat(testData[i]));
 				}
 
