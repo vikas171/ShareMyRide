@@ -1,4 +1,4 @@
-/*package test.postride.utils;
+package test.postride.utils;
 
 import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
@@ -12,4 +12,3 @@ import cucumber.api.junit.Cucumber;
 public class TestPostrideRunner {
 
 }
-*/

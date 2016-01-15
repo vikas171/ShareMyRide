@@ -1,4 +1,4 @@
-package main.rpn;
+package rpn;
 
 public class CalculationFactory {
 	

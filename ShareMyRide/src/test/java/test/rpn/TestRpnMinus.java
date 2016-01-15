@@ -1,6 +1,6 @@
 package test.rpn;
 
-import main.rpn.RPNCalculator;
+import rpn.RPNCalculator;
 import junit.framework.TestCase;
 
 public class TestRpnMinus extends TestCase {

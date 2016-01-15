@@ -1,4 +1,4 @@
-package main.rpn;
+package rpn;
 
 import java.util.HashMap;
 

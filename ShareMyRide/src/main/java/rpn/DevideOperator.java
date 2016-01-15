@@ -1,4 +1,4 @@
-package main.rpn;
+package rpn;
 
 public class DevideOperator implements BinaryOperator  {
 	public double doCalculation(double num1, double num2)

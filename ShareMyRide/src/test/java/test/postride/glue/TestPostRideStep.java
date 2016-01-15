@@ -1,4 +1,4 @@
-/*package test.postride.glue;
+package test.postride.glue;
 
 import junit.framework.TestCase;
 import postride.Ride;
@@ -81,4 +81,3 @@ public class TestPostRideStep extends TestCase{
 		throw new PendingException();
 	}
 }
-*/

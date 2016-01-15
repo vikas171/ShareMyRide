@@ -1,4 +1,4 @@
-package main.rpn;
+package rpn;
 
 public class PowerOperator implements UnaryOperator  {
 	public double doCalculation(double num1)
